@@ -3,7 +3,6 @@ class Usuario {
     private $conn;
 
     public function __construct() {
-        // Conectar ao banco de dados
         $servername = "localhost";
         $username = "root";
         $password = "";

@@ -1,5 +1,5 @@
-<p></p>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>
+<footer class="bg-gray-200 text-gray-700">
+    <div class="max-w-7xl mx-auto px-6 py-6 text-center">
+        <p class="text-sm">&copy; <?php echo date("Y"); ?> MyCine. Todos os direitos reservados.</p>
+    </div>
+</footer>

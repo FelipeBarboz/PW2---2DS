@@ -17,7 +17,7 @@ switch ($pagina) {
         include 'views/cadastro.php';
         break;
     case 'filmes':
-        include 'views/filmes.php';
+        include 'views/add_filmes.php';
         break;
     case 'perfil':
         include 'views/dashboard.php';

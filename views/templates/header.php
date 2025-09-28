@@ -11,7 +11,7 @@
 <nav class="bg-gray-200 px-6 py-3 flex items-center justify-between shadow-md relative">
     <!-- Logo Home -->
     <a href="?aaa=home" class="flex items-center">
-        <img src="views/images/mycinee.png" alt="Logo MyCine" class="h-10">
+        <img src="assets/images/mycinee.png" alt="Logo MyCine" class="h-10">
     </a>
 
     <!-- Barra de busca centralizada -->

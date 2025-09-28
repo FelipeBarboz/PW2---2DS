@@ -27,7 +27,7 @@ try {
         <button class="text-2xl mr-2 p-2 bg-white rounded-full shadow hover:bg-gray-200">&#8592;</button>
         <div class="flex overflow-x-auto gap-4 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             <?php foreach ($filmes as $filme): ?>
-                <a href="filme.php?id=<?= $filme['id'] ?>" class="flex-shrink-0 w-32 hover:scale-105 transform transition duration-200">
+                <a href="views/filme.php?id=<?= $filme['id'] ?>" class="flex-shrink-0 w-32 hover:scale-105 transform transition duration-200">
                     <div class="relative group">
                         <img src="uploads/<?= htmlspecialchars($filme['capa']) ?>" class="rounded-lg w-full h-48 object-cover" alt="<?= htmlspecialchars($filme['nome']) ?>">
                         <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xs p-2 rounded-lg transition-opacity">
@@ -43,14 +43,13 @@ try {
     </div>
 </section>
 
-<!-- Recomendados -->
 <section>
     <h2 class="text-2xl font-bold mb-4 text-gray-800">Recomendados</h2>
     <div class="flex items-center">
         <button class="text-2xl mr-2 p-2 bg-white rounded-full shadow hover:bg-gray-200">&#8592;</button>
         <div class="flex overflow-x-auto gap-4 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             <?php foreach ($filmes as $filme): ?>
-                <a href="filme.php?id=<?= $filme['id'] ?>" class="flex-shrink-0 w-32 hover:scale-105 transform transition duration-200">
+                <a href="views/filme.php?id=<?= $filme['id'] ?>" class="flex-shrink-0 w-32 hover:scale-105 transform transition duration-200">
                     <div class="relative group">
                         <img src="uploads/<?= htmlspecialchars($filme['capa']) ?>" class="rounded-lg w-full h-48 object-cover" alt="<?= htmlspecialchars($filme['nome']) ?>">
                         <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xs p-2 rounded-lg transition-opacity">

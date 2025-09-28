@@ -1,9 +1,8 @@
 <?php
-session_start(); // Inicia a sessão
+session_start();
 
-$pagina = isset($_GET['aaa']) ? $_GET['aaa'] : 'home'; // Caso 'aaa' não seja passado, assume 'home'
+$pagina = isset($_GET['aaa']) ? $_GET['aaa'] : 'home';
 
-// Inclui o cabeçalho
 include 'views/templates/header.php';
 
 switch ($pagina) {
@@ -27,6 +26,5 @@ switch ($pagina) {
         break;
 }
 
-// Inclui o rodapé
 include 'views/templates/footer.php';
 ?>
